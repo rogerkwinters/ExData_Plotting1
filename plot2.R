@@ -24,8 +24,8 @@ png(filename = "plot2.png",
 ## Create the plot
 ##
 
-plot(x = hpctbl$DateTime, y = hpctbl$Global_active_power, type="l",
-     ylab="Global Active Power (kilowatts)", xlab="")
+plot(x = hpctbl$DateTime, y = hpctbl$Global_active_power,
+     type="l", ylab="Global Active Power (kilowatts)", xlab="")
 
 ##
 ## Shutdown the device
