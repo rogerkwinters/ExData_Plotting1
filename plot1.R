@@ -21,7 +21,7 @@ png(filename = "plot1.png",
     width = 480, height = 480)
     
 ##
-## Create the historgram
+## Create the histogram
 ##
 hist(hpctbl$Global_active_power,
      col = "red",
